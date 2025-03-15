@@ -14,6 +14,14 @@ print(25 > 5,"\n")
 print(15.6666 < 15.6667)
 print(15.6667 < 15.6666,"\n")
 
+#Mayor o igual que
+print(5 >= 5)
+print(5 >= 4,"\n")
+
+#Menor o igual que
+print(5 <= 5)
+print(5 <= 6,"\n")
+
 #Ejericio 
 edad_pablo=input("Introduce la edad de Pablo: ")#Se pide la edad de Pablo
 edad_pedro=input("Introduce la edad de Pedro: ")#Se pide la edad de Pedro
