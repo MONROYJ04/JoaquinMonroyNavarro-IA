@@ -7,7 +7,7 @@ print("Los elementos de la lista son:")
 for numero in numeros:
     print(numero)
 
-    #Usar len() para saber cuantos elementos tiene la lista
+#Usar len() para saber cuantos elementos tiene la lista
 print(f"La lista tiene {len(numeros)} elementos")
 
 #Crear una lista 
