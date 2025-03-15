@@ -8,14 +8,14 @@ while contador <= limite: #Mientras el contador sea menor o igual al limite
     contador +=1 #Esto hace que el contador incremente en 1
 
 #Ejemplo 2 Sumar numeros dados por el usuario
-suma= 0
-numero= int(input("Introduce un numero:"))#Se pide un numero
+suma = 0
+numero= int(input("Introduce un numero (0 es para terminar)"))#Se pide un numero
 
 while numero != 0: 
     suma += numero  #Esto hace que la suma sea igual a la suma mas el numero
-    numero = int(input("Introduce un nuemro:"))
+    numero = int(input("Introduce otro numero:"))
 
-    print("La suma de los numeros es: ", suma,"\n")
+print(f"La suma de los numeros es {suma}")
 
 #Ejemplo 3 Menu de helados
 opcion= 4
